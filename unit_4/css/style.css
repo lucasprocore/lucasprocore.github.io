@@ -1,22 +1,76 @@
-/** {
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Titillium+Web:wght@900&display=swap');
+
+* {
 	padding: 0;
 	margin: 0;
-}*/
-
-img {
-	width: 100%;
 }
 
 body {
-	color: white;
-	background: url("file:///Users/lucas/Desktop/GA/lucasprocore.github.io/unit_3/images/frankie01.jpg");
-	background-size: cover;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
+	color: #000;
+	background-color: #B8CBFF;
+	font-size: 16px;
 	}
 
+nav {
+	padding: 1em;
+}
+
+header {
+	padding: 10em;
+}
+
 h1 {
-	color: orange;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 4em;
+	letter-spacing: 2px;
+	color: #B8CBFF;
+}
+
+h2 {
+	font-size: 1.5em;
+	color: #7DA0FF;
+	margin: 3em 0 .5em;
+}
+
+p {
+	line-height: 1.5em;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	border-bottom: 2px solid #000;
+}
+
+footer {
+	margin: 3em;
+}
+
+.hero {
+	background: url("../images/frankie01.jpg");
+	background-size: cover;
+}
+
+.navbar {
+	font-size: 0.75em;
+	color: #fff;
+	text-transform: uppercase;
+	margin: 2em 5em;
+	border: none;
+}
+
+.bottomnavbar {
+	font-size: 0.75em;
+	color: #3053B3;
+	text-transform: uppercase;
+	margin: 5em;
+	border: none;
 }
 
 #slogan {
 	font-style: italic;
+	font-size: 1.5em;
+	color: #fff;
 }
