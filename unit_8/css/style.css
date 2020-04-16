@@ -1,0 +1,284 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: asap, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 1.5em;
+	text-align: center;
+	color: #000;
+	background-color: #3DBAFF;
+	}
+
+nav {
+	padding: 1em 0;
+}
+
+nav a {
+	padding: 0 7.5%;
+	font-family: asap, sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	font-size: .75em;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #000;
+}
+
+a:visited {
+	color: #000;
+}
+
+a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+a:active {
+	color: darkred;
+	text-decoration: underline;
+}
+
+header {
+	margin: 12.5em 0;
+}
+
+article {
+	clear: both;
+	width: 100%;
+	padding: 5em 0em;
+	border-top: 2px dashed black; 
+}
+
+footer {
+	padding: 1em 0;
+}
+
+footer a {
+	padding: 0 7em;
+	font-family: asap, sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	font-size: .75em;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #000;
+}
+
+h1 {
+	padding: .5em 0 0 0;
+	font-family: cheap-pine, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 10em;
+	line-height: .8em;
+}
+
+
+h2{
+	font-family: asap, sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	font-size: 2em;
+	color: #000;
+	padding: 0 0 .5em;
+}
+
+h3 {
+	font-family: lakeside, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 4em;
+}
+
+/*.art1 {
+	background-color: red;
+}
+
+.art2 {
+	background-color: green;
+}*/
+
+.art2 a {
+	color: #000;
+}
+
+.art2 a:visited {
+	color: #000;
+}
+
+.art2 a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+.art2 a:active {
+	color: darkred;
+	text-decoration: underline;
+}
+
+.pic img {
+	width: 23.5%;
+	margin: 1em 2% 0 0;
+	float: left;
+}
+
+.pic:nth-of-type(4) img {
+	margin: 1em 0 0;
+}
+
+.pic:nth-of-type(8) img {
+	margin: 1em 0 0;
+}
+
+.merch {
+	float: left;
+	display: block;
+	width: 17.6%;
+	margin: 0 3% 0 0;
+}
+
+.merch:nth-of-type(5) {
+	margin: 0;
+}
+
+.merch img {
+	width: 100%;
+	display: block;
+	float: left;
+}
+
+.merch a {
+	display: block;
+	clear: both;
+	text-transform: uppercase;
+	color: #000;
+	text-decoration: none;
+	font-weight: 800;
+	font-style: normal;
+	font-size: .75em;
+	line-height: 1em;
+	padding: .5em 0 0;
+
+}
+
+.merch a:visited {
+	color: #000;
+}
+
+.merch a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+.merch a:active {
+	color: darkred;
+	text-decoration: underline;
+}
+
+.clearfix:after{
+	visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#wrapper {
+	width: 90%;
+	margin: auto;
+}
+
+#abouttext {
+	width: 65%;
+	display: inline;
+	padding: 1.5em 0 0;
+}
+
+#abouttext img {
+	width: 100%;
+	margin: 1em 0;
+}
+
+#photos {
+	margin: 2em 0 0;
+}
+
+#store {
+	margin: 2em 0 0;
+}
+
+@media only screen and (min-width: 1200px) {
+	#wrapper {
+		width: 1080px;
+	}
+}
+
+@media only	screen and (max-width: 800px) {
+	body {
+		font-size: 12px;
+	}	
+
+	.pic img {
+		width: 30%;
+		margin: 1em 5% 0 0;
+		float: left;
+	}
+
+	.pic:nth-of-type(3) img {
+		margin: 1em 0 0;
+	}
+
+	.pic:nth-of-type(4) img {
+		margin: 1em 5% 0 0;
+	}
+
+	.pic:nth-of-type(6) img {
+		margin: 1em 0 0;
+	}
+
+	.pic:nth-of-type(7) img {
+		display: none;
+	}
+
+	.pic:nth-of-type(8) img {
+		display: none;
+	}
+
+	.merch {
+		float: left;
+		display: block;
+		width: 30%;
+		margin: 1em 5% 0 0;
+	}
+
+	.merch:nth-of-type(3) {
+		margin: 1em 0 0;
+	}
+
+	.merch:nth-of-type(4) {
+		display: none;
+	}
+	
+	.merch:nth-of-type(5) {
+		display: none;
+	}
+
+}
+
+@media only	screen and (max-width: 515px) {
+	nav a {
+		display: block;
+		clear: both;
+		padding: 0 0 1em;
+	}
+
+	header {
+		margin: 2em 0 5em;
+	}
+}
