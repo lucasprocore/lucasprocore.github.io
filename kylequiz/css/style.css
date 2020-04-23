@@ -63,6 +63,7 @@ h2 {
 .movie p {
 	font-size: 1.25em;
 	line-height: 1.1em;
+	text-shadow: 1.5px 3px black;
 }
 
 .easy a {
@@ -202,6 +203,10 @@ h2 {
 	background-color: #000;
 }
 
+#threelines {
+	padding: 2.32em 0;
+}
+
 #questioncard {
 	padding: 1.5em 0;
 	background-color: #00258e;
@@ -280,19 +285,15 @@ h2 {
 		height: 8em;
 		margin: 3px 0 0;
 	}
+
+	#threelines {
+		padding: 2.5em 0;
+	}
 }
 
 @media only screen and (max-width: 1250px) {
 	body {
 		font-size: 12px;
-	}
-
-	.column {
-		width: 15.5%;
-	}
-
-	.long {
-		width: 19%;
 	}
 }
 
@@ -308,10 +309,8 @@ h2 {
 	#blankinside {
 		height: 5em;
 	}
-}
 
-@media only screen and (max-width: 561px) {
-	#ouatih {
-		padding: 1em .5em;
+	#threelines {
+		padding: 1em 0;
 	}
 }
